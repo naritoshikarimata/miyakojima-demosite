@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+/*index.css始まり*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  max-width: 1160px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: serif;
+}
+
+#index {
+  margin: 0;
+}
+
+/*ヘッダー*/
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header > .container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0 60px;
+}
+
+/*ロゴ*/
+.area_logo_header .logo {
+  display: block;
+  height: 68px;
+  width: 306px;
+}
+.area_logo_header img {
+  height: 68px;
+  width: 306px;
+  vertical-align: bottom;
+}
+
+/*ヘッダーナビ*/
+.nav_header{
+  margin: 0 0 0 auto;
+}
+.list_nav_header {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+.list_nav_header > li {
+  padding: 0 30px;
+}
+.list_nav_header a  {
+  color: #fff;
+  font: 400 18px/1em;
+  font-family: serif;
+}
+.list_nav_header li::after {
+  border-bottom: solid 2px #fff;
+  bottom: 5;
+  content: "";
+  display: block;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  width: 0;
+}
+li:hover::after {
+  width: 100%;
+}
+[class*="btn_ico"] {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  background: #B99B32;
+  box-shadow: 0px 7px 6px -4px rgba(16,61,72,.2);
+  position: relative;
+}
+
+/*トップビュー*/
+.area_top_view {
+  background: url(../img/img/top_bg.jpg)no-repeat bottom center;
+  background-size: cover;
+}
+.area_top_view img {
+  height: 72px;
+  width: 648px;
+}
+.area_top_view > .container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a img:hover {
+  opacity: 0.8;
+}
+
+/*エリア_ホーム*/
+[class*="area_home"] {
+  padding: 80px 0;
+}
+
+/*ヘッド*/
+.head_home {
+  display: flex;
+  margin: 0 0 50px;
+  justify-content: center;
+}
+.head_home .ttl {
+  font: 400 36px/1em 'futura PT','noto sans japanese',sans-serif;
+  position: relative;
+}
+
+/*2分割レイアウト*/
+.layout_2_div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -80px;
+}
+.layout_2_div > div {
+  width: 50%;
+  padding: 0 0px;
+}
+
+/*テキストホーム*/
+.text_home .ttl {
+  font: 400 25px/1em 'futura PT','noto sans japanese',sans-serif;
+  margin: 0 0 20px;
+}
+.text_home .description {
+  font: 300 15px/1em 'futura PT','noto sans japanese',sans-serif;
+  line-height: 2
+}
+.text_home .btnarea {
+  margin: 30px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+/*宮古島とは*/
+.area_home_about img {
+  transition: scale(1.1);
+  transform-origin: center center;
+  box-shadow: 0px 16px 6px -8px rgba(16,61,72,.2);
+}
+
+/*サイトマップ*/
+.list_sitemap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_sitemap > li {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_sitemap  img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 10px;
+}
+.list_sitemap .ttl {
+  font: 600 16px/1em 'futura PT','noto sans japanese',sans-serif;
+}
+
+/*フッター*/
+footer > .container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*バックグラウンド*/
+.bg_navy {
+  color: #fff;
+  background: #1A273D;
+}
+.bg_gray {
+  color: #fff;
+  background: #222222;
+}
+.bg_black {
+  color: #fff;
+  background: #000;
+}
+
+/*お問い合わせ*/
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 190px;
+}
+.footer_description {
+  font: 300 14px/1em '游明朝体','noto sans japanese',serif;
+}
+.btn_contact a {
+  color: #fff;
+}
+.btn_contact li {
+  color: #fff;
+  margin-right: 40px;
+}
+
+/*プライバシーポリシー*/
+.privacy_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+}
+.layout_2_div2 {
+  display: flex;
+  flex-direction: row;
+  
+}
+.footer-nav_logo {
+  padding: 10px 0;
+  align-items: center;
+}
+.footer-nav_logo .logo {
+  display: block;
+  height: 60px;
+  width: 400px;
+}
+.footer-nav_logo img {
+  height: 68px;
+  width: 306px;
+  vertical-align: bottom;
+  padding: 10px 0;
+}
+.footer-nav_logo-text {
+  font: 300 14px/1em '游明朝体','noto sans japanese',serif;
+  text-align: left;
+  line-height: 1.5;
+  padding: 20px 70px 10px 0;
+}
+.footer-nav_sitename {
+  margin: 0;
+  font: 200 15px/1em '游明朝体','noto sans japanese',serif;
+}
+.footer-nav_item {
+  margin: 0;
+  margin-top: 10px;
+}
+
+/*コピーライト*/
+.copyright_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22px;
+  font: 100 17px/1em '游明朝体','noto sans japanese',serif;
+  padding: 4px 0 2px;
+}
+
+/*index.css終わり*/

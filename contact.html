@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="utf-8">
+  <title> 宮古島お問い合わせページ</title>
+  <link rel="stylesheet" href="./../css/contact.css">
+  <link href="./../img/ico/favicon_ico.png" rel="shortcut icon">
+  </head>
+  <body id="contact">
+
+    <!--headerの始まり-->
+    <header>
+      <div class="container">
+        <div class="area_logo_header">
+          <a href="index.html" class="logo">
+            <img src="./../img/logo/logo.png" alt="Eco Islands MIYAKOJIMA">
+          </a>
+        </div>
+        <nav class="nav_header">
+          <ul class="list_nav_header">
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="about.html">宮古島について</a></li>
+            <li><a href="sightseeing.html">観光スポット</a></li>
+            <li><a href="gourmet.html">グルメ</a></li>
+            <li><a href="event.html">イベント</a></li>
+            <li><a class="btn_ico_contact" href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div> 
+    </header>
+    
+    <!--トップビューの始まり-->
+    <div id="wrap">
+      <div class="content">
+        <div class="main-center">
+          <h1>Contact</h1>
+          <p>宮古島へのアクセス方法、お問い合わせ、取材のご依頼フォームのページです。お気軽にお問い合わせください。</p>
+          <section class="access clearfix">
+            <h2 class="icon">Access</h2>
+            <table>
+              <tr>
+                <th>所在地住所</th>
+                <td>沖縄県宮古島市平良字西里1140番地</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td> 0980-72-3751</td>
+              </tr>
+              <tr>
+                <th>飛行機でのアクセス</th>
+                <td>那覇空港から飛行機で約45分</td>
+              </tr>
+            </table>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231712.93357702417!2d125.161796584244!3d24.84626857049025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f453d7f991a399%3A0x45f7cf62746637a6!2z5rKW57iE55yM5a6u5Y-k5bO25biC!5e0!3m2!1sja!2sjp!4v1611573168014!5m2!1sja!2sjp" width="460" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </section>
+          <section>
+            <h2 class="icon">Contact form</h2>
+            <div class="form">
+              <form>
+                <dl>
+                  <dt><span class="required">お名前</span></dt>
+                  <dd><input type="text" name="name" class="name" required></dd>
+                  <dt><span class="required">メールアドレス</span></dt>
+                  <dd><input type="email" name="email" class="email" required></dd>
+                  <dt>お電話番号</dt>
+                  <dd><input type="tel" name="tel" class="tel"></dd>
+                  <dt>お問合せ種別</dt>
+                  <dd>
+                    <select name="type" class="type">
+                      <option value="webサイトについて">webサイトについて</option>
+                      <option value="取材のご依頼">取材のご依頼</option>
+                      <option value="その他お問い合わせ">その他お問い合わせ</option>
+                    </select>
+                  </dd>
+                  <dt>ご希望のご連絡方法</dt>
+                  <dd>
+                    <input type="radio" name="contact" value="Eメール">Eメール
+                    <input type="radio" name="contact" value="お電話">お電話
+                  </dd>
+                  <dt>メッセージ</dt>
+                  <dd><textarea name="message" class="message"></textarea></dd>
+                </dl>
+                <button type="submit">送信</button>
+              </form>
+              <div class="attention">
+                <p>※ 「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、担当者よりご連絡いたします。</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    
+    <!-- フッターの始まり -->
+    <footer>
+      <!-- プライバシーポリシー -->
+      <div class="footer-nav bg_gray">
+        <div class="privacy_inner">
+          <div class="layout_2_div2">
+            <div class="footer-nav_logo">
+        	  <a href="index.html" class="logo">
+          		  <img src="./../img/logo/logo.png" alt="Eco Islands MIYAKOJIMA">
+         	  </a>
+            </div>
+            <p class="footer-nav_logo-text">宮古島の観光・グルメ・<br>イベント情報オリジナルサイト</p>
+          </div>
+          <p class="footer-nav_sitename">宮古島紹介オリジナルサイト</p>
+        </div>
+      </div>
+      <!-- コピーライト -->
+      <div class="copyright bg_black">
+        <div class="copyright_inner">
+          <small class="copyright_text">Copyrights ©︎ miyakojima-original. All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

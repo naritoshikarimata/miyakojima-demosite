@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <filter id="長方形_19" x="0" y="0" width="270" height="270" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.212"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_69" data-name="グループ 69" transform="translate(-183 -1914)">
+    <g transform="matrix(1, 0, 0, 1, 183, 1914)" filter="url(#長方形_19)">
+      <rect id="長方形_19-2" data-name="長方形 19" width="240" height="240" rx="20" transform="translate(15 15)" fill="#fff"/>
+    </g>
+    <g id="pointer-spot-tool-for-maps" transform="translate(277.589 2006.075)">
+      <g id="グループ_44" data-name="グループ 44" transform="translate(1.162)">
+        <path id="パス_42" data-name="パス 42" d="M59.482,18.488H51.691q-1.135,1.848-2.2,3.541h8.3L71.96,39.722H8.527L22.7,22.029H31c-.707-1.13-1.443-2.309-2.2-3.541H21.005L1.162,43.265H79.325Z" transform="translate(-1.162 42.574)"/>
+        <path id="パス_43" data-name="パス 43" d="M54.555,24.483a24.487,24.487,0,0,0-48.974,0c0,13.522,24.487,48.97,24.487,48.97S54.555,38.005,54.555,24.483Zm-36.73,0A12.243,12.243,0,1,1,30.068,36.727,12.243,12.243,0,0,1,17.824,24.483Z" transform="translate(9.014 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

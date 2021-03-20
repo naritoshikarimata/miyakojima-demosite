@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+/*about.css始まり*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  max-width: 1160px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: serif;
+}
+
+#about {
+  margin: 0;
+}
+
+/*ヘッダー*/
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/img/top_bg.jpg)no-repeat center center;
+  background-size: cover;
+}
+header > .container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0 60px;
+}
+
+/*ロゴ*/
+.area_logo_header .logo {
+  display: block;
+  height: 68px;
+  width: 306px;
+}
+.area_logo_header img {
+  height: 68px;
+  width: 306px;
+  vertical-align: bottom;
+}
+
+/*ヘッダーナビ*/
+.nav_header{
+  margin: 0 0 0 auto;
+}
+.list_nav_header {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+.list_nav_header > li {
+  padding: 0 30px;
+}
+.list_nav_header a  {
+  color: #fff;
+  font: 400 18px/1em;
+  font-family: serif;
+}
+.list_nav_header li::after {
+  border-bottom: solid 2px #fff;
+  bottom: 5;
+  content: "";
+  display: block;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  width: 0;
+}
+li:hover::after {
+  width: 100%;
+}
+[class*="btn_ico"] {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  background: #B99B32;
+  box-shadow: 0px 7px 6px -4px rgba(16,61,72,.2);
+  position: relative;
+}
+
+/*メインエリア*/
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 40px 0;
+}
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #005AA1;
+}
+#about .profile-txt {
+  width: 540px;
+  float: left;
+}
+#about .profile-txt span {
+  font-weight: bold;
+}
+#about .profile-image {
+  float: right;
+  height: 40%;
+  width: 40%;
+  margin-top: 70px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#wrap section {
+  margin-bottom: 35px;
+}
+
+#about .history th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+#about .history td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+a img:hover {
+  opacity: 0.8;
+}
+/*フッター*/
+footer > .container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*バックグラウンド*/
+.bg_navy {
+  color: #fff;
+  background: #1A273D;
+}
+.bg_gray {
+  color: #fff;
+  background: #222222;
+}
+.bg_black {
+  color: #fff;
+  background: #000;
+}
+
+/*お問い合わせ*/
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 190px;
+}
+.footer_description {
+  font: 300 14px/1em '游明朝体','noto sans japanese',serif;
+}
+.btn_contact a {
+  color: #fff;
+}
+.btn_contact li {
+  color: #fff;
+  margin-right: 40px;
+}
+
+/*プライバシーポリシー*/
+.privacy_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px;
+}
+.layout_2_div2 {
+  display: flex;
+  flex-direction: row;
+  
+}
+.footer-nav_logo {
+  padding: 10px 0;
+  align-items: center;
+}
+.footer-nav_logo .logo {
+  display: block;
+  height: 60px;
+  width: 400px;
+}
+.footer-nav_logo img {
+  height: 68px;
+  width: 306px;
+  vertical-align: bottom;
+  padding: 10px 0;
+}
+.footer-nav_logo-text {
+  font: 300 14px/1em '游明朝体','noto sans japanese',serif;
+  text-align: left;
+  line-height: 1.6;
+  padding: 20px 70px 10px 0;
+}
+.footer-nav_sitename {
+  margin: 0;
+  font: 200 15px/1em '游明朝体','noto sans japanese',serif;
+}
+.footer-nav_item {
+  margin: 0;
+  margin-top: 10px;
+}
+
+/*コピーライト*/
+.copyright_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22px;
+  font: 100 17px/1em '游明朝体','noto sans japanese',serif;
+  padding: 4px 0 2px;
+}
